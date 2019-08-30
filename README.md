@@ -29,16 +29,16 @@ We need to first dowload the [NTU](https://github.com/shahroudy/NTURGB-D) datase
 
 ```bash
 # For CNN-based model with view adaptation module
-python  va-cnn.py --VA --aug 1 --train 1
+python  va-cnn.py --model VA --aug 1 --train 1
 
 # For CNN-based model without view adaptation module
-python  va-cnn.py --baseline --aug 1 --train 1
+python  va-cnn.py --model baseline --aug 1 --train 1
 
 # For RNN-based model with view adaptation module
-python va-rnn.py --VA --aug 1 --train 1
+python va-rnn.py --model VA --aug 1 --train 1
 
 # For RNN-based model without view adaptation module
-python va-rnn.py --baseline --aug 1 --train 1
+python va-rnn.py --model baseline --aug 1 --train 1
 ```
 
 ### Reference
