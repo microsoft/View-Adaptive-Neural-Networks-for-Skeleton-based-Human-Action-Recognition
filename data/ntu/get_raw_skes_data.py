@@ -135,8 +135,10 @@ def get_raw_skes_data():
 if __name__ == '__main__':
     save_path = './'
 
-    skes_path = './data/ntu/nturgb+d_skeletons/'
+    skes_path = './nturgb+d_skeletons/'
     stat_path = osp.join(save_path, 'statistics')
+    if not osp.exists('./raw_data'):
+        os.makedirs('./raw_data')
 
     skes_name_file = osp.join(stat_path, 'skes_available_name.txt')
     save_data_pkl = osp.join(save_path, 'raw_data', 'raw_skes_data.pkl')

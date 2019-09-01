@@ -21,8 +21,7 @@ denoised_path = osp.join(root_path, 'denoised_data')
 raw_skes_joints_pkl = osp.join(denoised_path, 'raw_denoised_joints.pkl')
 frames_file = osp.join(denoised_path, 'frames_cnt.txt')
 
-# save_path = '/data/pengfei/NTU'
-save_path = './dta/ntu'
+save_path = './'
 
 if not osp.exists(save_path):
     os.mkdir(save_path)

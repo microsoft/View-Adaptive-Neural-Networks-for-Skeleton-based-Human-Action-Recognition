@@ -9,9 +9,6 @@ import logging
 
 root_path = './'
 raw_data_file = osp.join(root_path, 'raw_data', 'raw_skes_data.pkl')
-frames_drop_skes_pkl = osp.join(root_path, 'frames_drop_skes.pkl')
-
-rgb_path = osp.join(root_path, 'rgb')
 save_path = osp.join(root_path, 'denoised_data')
 
 if not osp.exists(save_path):
@@ -386,9 +383,6 @@ def get_raw_denoised_data():
     For better understanding, also generate RGB+skeleton videos for visualization.
     """
 
-    # with open(frames_drop_skes_pkl, 'rb') as fr:
-    #     frames_drop_skes = pickle.load(fr)
-
     with open(raw_data_file, 'rb') as fr:  # load raw skeletons data
         raw_skes_data = pickle.load(fr)
 
@@ -440,7 +434,5 @@ def get_raw_denoised_data():
     print('Found %d files that have missing data' % missing_count)
 
 if __name__ == '__main__':
-    with open(frames_drop_skes_pkl, 'rb') as fr:
-        frames_drop_skes = pickle.load(fr)
 
     get_raw_denoised_data()
