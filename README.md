@@ -3,12 +3,13 @@
 
 Code for our paper View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition. [Paper](https://arxiv.org/pdf/1804.07453.pdf)
 
-![image](https://github.com/lcl-2019/VA/tree/master/image/Flowchat.PNG)
+![image](https://github.com/lcl-2019/VA/tree/master/image/Flowchart.png)
 
 ### Prerequisites
 
 The code is built with following libraries:
-
+- python 3.6
+- [anaconda](https://www.anaconda.com/)
 - [PyTorch](https://pytorch.org/) 1.0
 - [Keras](https://keras.io/) 2.1.2 
 - [Theano](http://deeplearning.net/software/theano/) 1.0
