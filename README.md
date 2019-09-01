@@ -17,7 +17,7 @@ Introduction: Skeleton-based human action recognition has recently attracted inc
 
 
 Visualization of the Learned Views:
-[image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/visulization.png)
+![image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/visulization.png)
 
 Figure 2: Frames of (a) the similar posture captured from different viewpoints for the same subject, and (b) the same action “drinking” captured from
 different viewpoints for different subjects. 2nd row: original skeletons. 3rd row: Skeleton representations from the observation viewpoints of our
