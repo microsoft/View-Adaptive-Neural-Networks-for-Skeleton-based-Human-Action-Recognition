@@ -88,7 +88,7 @@ python va-rnn.py --model baseline --aug 1 --train 0
 ```
 
 ## Reference
-If you find our paper and repo useful, please cite our papers. Thanks!
+If you find our papers and repo useful, please cite our papers. Thanks!
 
 ```
 @article{zhang2019view,
