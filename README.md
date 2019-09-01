@@ -19,8 +19,7 @@ Introduction: Skeleton-based human action recognition has recently attracted inc
 Figure 2: Frames of (a) the similar posture captured from different viewpoints for the same subject, and (b) the same action “drinking” captured from different viewpoints for different subjects. 2nd row: original skeletons. 3rd row: Skeleton representations from the observation viewpoints of our VA-RNN model. 4th row: Skeleton representations from the observation viewpoints of our VA-CNN model.
 
 
-Figure 3:ites
-
+### Prerequisites
 The code is built with following libraries:
 - Python 2.7
 - [Anaconda](https://www.anaconda.com/)
@@ -31,7 +30,7 @@ The code is built with following libraries:
 
 ### Data Preparation
 
-We need to first dowload the [NTU](https://github.com/shahroudy/NTURGB-D) dataset
+We need to first dowload the [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) dataset
 
 - Extract the dataset to ./data/ntu/nturgb+d_skeletons/
 - Process the data
