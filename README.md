@@ -1,8 +1,9 @@
 
 # View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition
 
-Microsoft Open Source Code of Conduct: https://opensource.microsoft.com/codeofconduct
+Code for our paper View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition (https://arxiv.org/pdf/1804.07453.pdf)
 
+![image](https://github.com/lcl-2019/VA/image/Flowchat.png)
 
 ### Prerequisites
 
@@ -84,4 +85,5 @@ If you find our paper and repo useful, please cite our papers. Thanks!
 }
 
 ```
+Microsoft Open Source Code of Conduct: https://opensource.microsoft.com/codeofconduct
 
