@@ -21,7 +21,9 @@ We need to first dowload the [NTU](https://github.com/shahroudy/NTURGB-D) datase
 - Process the data
 ```bash
  cd ./data/ntu
- python get_raw_skes_data.py & python get_raw_denoised_data.py & python seq_transformation.py
+ python get_raw_skes_data.py
+ python get_raw_denoised_data.py
+ python seq_transformation.py
 ```
 
 
