@@ -30,6 +30,7 @@ parser.add_argument('--train', type=int, default=1,
                     help='train or test')
 args = parser.parse_args()
 
+
 import numpy as np
 import os
 os.environ['KERAS_BACKEND'] = 'theano'

@@ -6,6 +6,7 @@ import numpy as np
 from keras.models import Model
 
 
+
 def loaddata(filename):
     file = h5py.File(filename, 'r')
     train_x = file['x'][:]

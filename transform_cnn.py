@@ -6,6 +6,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torchvision.models as models
 
+
 class VA(nn.Module):
     """The layer for transforming the skeleton to the observed viewpoints"""
     def __init__(self,num_classes = 60):

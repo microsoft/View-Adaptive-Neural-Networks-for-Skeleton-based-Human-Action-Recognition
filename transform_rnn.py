@@ -8,6 +8,7 @@ from keras.engine.topology import Layer
 from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 floatX = theano.config.floatX
 
+
 def _transform_trans(theta,input):
     batch1, step1, dim1 = input.shape
     input = K.reshape(input,(batch1,step1,dim1//3,3))

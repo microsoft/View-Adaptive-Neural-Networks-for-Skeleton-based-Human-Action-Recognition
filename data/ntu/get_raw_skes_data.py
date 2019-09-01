@@ -3,7 +3,6 @@
 import os.path as osp
 import os
 import numpy as np
-# import cPickle
 import pickle
 import logging
 

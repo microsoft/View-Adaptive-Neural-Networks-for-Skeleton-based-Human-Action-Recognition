@@ -23,6 +23,7 @@ frames_file = osp.join(denoised_path, 'frames_cnt.txt')
 
 save_path = './'
 
+
 if not osp.exists(save_path):
     os.mkdir(save_path)
 
