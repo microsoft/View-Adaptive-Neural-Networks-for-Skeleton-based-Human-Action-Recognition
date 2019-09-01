@@ -1,6 +1,12 @@
 
 # View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition
 
+This repository is for the codes and methods for the following papers:
+
+View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition. TPAMI, 2019
+
+View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data. ICCV, 2017
+
 Code for our paper View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition. [Paper](https://arxiv.org/pdf/1804.07453.pdf)
 
 ### Flowchart
@@ -15,9 +21,9 @@ Introduction: Skeleton-based human action recognition has recently attracted inc
 
 ![image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/Framework.png)
 
-Figure 2: Architecture of the proposed view adaptive neural networks: a view adaptive RNN with LSTM (VA-RNN), and a view adaptive CNN (VA-CNN). The classification scores from the two networks can be fused to provide the fused prediction, denoted as the VA-fusion scheme.
+Figure 2: Architecture of the proposed view adaptive neural networks: a view adaptive RNN with LSTM (VA-RNN), and a view adaptive CNN (VA-CNN). The classification scores from the two networks can be fused to provide the fused prediction, denoted as the VA-fusion scheme. Note that based on application requirements, we can use VA-RNN or VA-CNN only or combine them together. 
 
-### Visualization of the Learned Views:
+### Visualization of the Learned Views
 
 ![image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/visulization.png)
 
