@@ -1,5 +1,5 @@
 
-# View adaptive neural networks for high performance skeleton-based human action recognition
+# View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition
 
 Microsoft Open Source Code of Conduct: https://opensource.microsoft.com/codeofconduct
 
@@ -17,12 +17,15 @@ The code is built with following libraries:
 
 We need to first dowload the [NTU](https://github.com/shahroudy/NTURGB-D) dataset
 
-- Extract the skeleton dataset to ./data/ntu
+- Extract the dataset to ./data/ntu/nturgb+d_skeletons/
 - Process the data
 ```bash
  cd ./data/ntu
+ # Get skeleton of each performer
  python get_raw_skes_data.py
+ # Remove the bad skeleton 
  python get_raw_denoised_data.py
+ # Transform the skeleton to the center of the first frame
  python seq_transformation.py
 ```
 
@@ -43,8 +46,25 @@ python va-rnn.py --model VA --aug 1 --train 1
 python va-rnn.py --model baseline --aug 1 --train 1
 ```
 
+
+### Testing
+
+```bash
+# For CNN-based model with view adaptation module
+python  va-cnn.py --model VA --aug 1 --train 0
+
+# For CNN-based model without view adaptation module
+python  va-cnn.py --model baseline --aug 1 --train 0
+
+# For RNN-based model with view adaptation module
+python va-rnn.py --model VA --aug 1 --train 0
+
+# For RNN-based model without view adaptation module
+python va-rnn.py --model baseline --aug 1 --train 0
+```
+
 ### Reference
-If you find our paper and repo useful, please cite our paper. Thanks!
+If you find our paper and repo useful, please cite our papers. Thanks!
 
 ```
 @article{zhang2019view,
