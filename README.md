@@ -11,11 +11,11 @@ Figure 1: Flowchat of the end-to-end view adaptive neural network. It consists o
 
 Introduction: Skeleton-based human action recognition has recently attracted increasing attention thanks to the accessibility and the popularity of 3D skeleton data. One of the key challenges in skeleton-based action recognition lies in the large view variations when capturing data. In order to alleviate the effects of view variations, this paper introduces a novel view adaptation scheme, which automatically determines the virtual observation viewpoints in a learning based data driven manner. We design two view adaptive neural networks, i.e., VA-RNN based on RNN, and VA-CNN based on CNN. For each network, a novel view adaptation module learns and determines the most suitable observation viewpoints, and transforms the skeletons to those viewpoints for the end-to-end recognition with a main classification network. Ablation studies find that the proposed view adaptive models are capable of transforming the skeletons of various viewpoints to much more consistent virtual viewpoints which largely eliminates the viewpoint influence. In addition, we design a two-stream scheme (referred to as VA-fusion) that fuses the scores of the two networks to provide the fused prediction. Extensive experimental evaluations on five challenging benchmarks demonstrate that the effectiveness of the proposed view-adaptive networks and superior performance over state-of-the-art approaches.
 
-### Framewokr
+### Framework
 
 ![image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/Framework.png)
 
-Figure 2: Architecture of the proposed view adaptive neural networks: a view adaptive RNN with LSTM (VA-RNN), and a view adaptive CNN (VA-CNN).
+Figure 2: Architecture of the proposed view adaptive neural networks: a view adaptive RNN with LSTM (VA-RNN), and a view adaptive CNN (VA-CNN). The classification scores from the two networks can be fused to provide the fused prediction, denoted as the VA-fusion scheme.
 
 ### Visualization of the Learned Views:
 
