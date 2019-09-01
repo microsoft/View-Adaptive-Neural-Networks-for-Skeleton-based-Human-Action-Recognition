@@ -3,7 +3,7 @@
 
 Code for our paper View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition. [Paper](https://arxiv.org/pdf/1804.07453.pdf)
 
-![image](https://github.com/lcl-2019/VA/blob/master/image/Flowchart.png)
+![image](https://github.com/microsoft/View-Adaptive-Neural-Networks-for-Skeleton-based-Human-Action-Recognition/blob/master/image/Flowchart.png)
 
 ### Prerequisites
 
