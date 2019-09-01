@@ -8,8 +8,8 @@ Code for our paper View Adaptive Neural Networks for High Performance Skeleton-b
 ### Prerequisites
 
 The code is built with following libraries:
-- python 3.6
-- [anaconda](https://www.anaconda.com/)
+- Python 2.7
+- [Anaconda](https://www.anaconda.com/)
 - [PyTorch](https://pytorch.org/) 1.0
 - [Keras](https://keras.io/) 2.1.2 
 - [Theano](http://deeplearning.net/software/theano/) 1.0
