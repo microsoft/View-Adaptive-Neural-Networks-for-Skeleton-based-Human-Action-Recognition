@@ -3,9 +3,9 @@
 
 This repository hold the codes and methods for the following papers:
 
-**View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition**. TPAMI, 2019, [paper][https://arxiv.org/pdf/1804.07453.pdf]
+**View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition**. TPAMI, 2019, [paper](https://arxiv.org/pdf/1804.07453.pdf)
 
-**View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data**. ICCV, 2017, [paper][http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_View_Adaptive_Recurrent_ICCV_2017_paper.pdf]
+**View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data**. ICCV, 2017, [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_View_Adaptive_Recurrent_ICCV_2017_paper.pdf)
 
 ### Flowchart
 
