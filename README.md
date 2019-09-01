@@ -1,9 +1,9 @@
 
 # View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition
 
-For skeleton-based human action recognition, one of the key challenges in skeleton-based action recognition lies in the large view variations when capturing data. In order to alleviate the effects of view variations, we introduce a novel view adaptation scheme, which automatically determines the virtual observation viewpoints in a learning based data driven manner. 
 
-This repository holds the codes and methods for the following papers:
+### Introduction
+For skeleton-based human action recognition, one of the key challenges is the large view variations when capturing data. In order to alleviate the effects of view variations, we introduce a novel view adaptation scheme, which automatically determines the virtual observation viewpoints in a learning based data driven manner.  This repository holds the codes and methods for the following papers:
 
 **View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition**. TPAMI, 2019, [paper](https://arxiv.org/pdf/1804.07453.pdf)
 
