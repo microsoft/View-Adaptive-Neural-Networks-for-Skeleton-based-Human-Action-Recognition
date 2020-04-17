@@ -1,14 +1,14 @@
 
-# View Adaptive Neural Networks (VA) 
+# View Adaptive Neural Networks (VA) for Skeleton-based Human Action Recognition
 
 ## Introduction
 For skeleton-based human action recognition, one of the key challenges is the large view variations when capturing data. In order to alleviate the effects of view variations, we introduce a novel view adaptation scheme, which automatically determines the virtual observation viewpoints in a learning based data driven manner.  
 
 This repository holds the codes and methods for the following papers:
 
-**View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition**. TPAMI, 2019, [paper](https://arxiv.org/pdf/1804.07453.pdf)
+[**View Adaptive Neural Networks for High Performance Skeleton-based Human Action Recognition**](https://arxiv.org/pdf/1804.07453.pdf). TPAMI, 2019.
 
-**View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data**. ICCV, 2017, [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_View_Adaptive_Recurrent_ICCV_2017_paper.pdf)
+[**View Adaptive Recurrent Neural Networks for High Performance Human Action Recognition from Skeleton Data**](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_View_Adaptive_Recurrent_ICCV_2017_paper.pdf). ICCV, 2017.
 
 ## Flowchart
 
@@ -40,7 +40,7 @@ The code is built with following libraries:
 
 ## Data Preparation
 
-We need to first dowload the [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) dataset
+We use the NTU60 RGB+D dataset as an example for description. We need to first dowload the [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D) dataset
 
 - Extract the dataset to ./data/ntu/nturgb+d_skeletons/
 - Process the data
